@@ -1,0 +1,107 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 128px 16px;
+  grid-template-areas:
+    ". img1 img1 img1 img1 . text1 text1 text1 text1 text1 text1"
+    "text2 text2 text2 text2 text2 text2 . img2 img2 img2 img2 .";
+  padding: 32px 0px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.text1 {
+  grid-area: text1;
+}
+.text2 {
+  grid-area: text2;
+}
+.text1,
+.text2 {
+  display: grid;
+  align-items: center;
+  color: white;
+}
+.headline {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.text {
+  font-size: 25px;
+}
+.img1,
+.img2,
+.text1,
+.text2 {
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+}
+.img1,
+.text1,
+.img2,
+.text2 {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.img1,
+.text1 {
+  margin-left: -100vw;
+}
+.img2,
+.text2 {
+  margin-left: 100vw;
+}
+.in-view {
+  margin-left: 0;
+  opacity: 1;
+}
+
+@media (max-width: 1279px) {
+  .grid {
+    gap: 64px 16px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      ". img1 img1 img1 img1 img1 img1 ."
+      "text1 text1 text1 text1 text1 text1 text1 text1"
+      ". img2 img2 img2 img2 img2 img2 ."
+      "text2 text2 text2 text2 text2 text2 text2 text2";
+  }
+  .img1,
+  .img2 {
+    text-align: center;
+  }
+  .headline,
+  .text,
+  .img {
+    max-width: 500px;
+    margin: auto;
+  }
+  .headline {
+    font-size: 25px;
+  }
+  .text {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 599px) {
+  .grid {
+    gap: 64px 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      ". img1 img1 ."
+      "text1 text1 text1 text1"
+      ". img2 img2 ."
+      "text2 text2 text2 text2";
+  }
+  .headline,
+  .text,
+  .img {
+    max-width: 100%;
+    margin: 0;
+  }
+}

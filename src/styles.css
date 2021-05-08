@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: futura-pt, sans-serif;
   font-style: normal;
+  font-weight: 300;
 }
 .cta {
   background-color: #79b928;
@@ -16,6 +17,3 @@ body {
   font-size: 1rem;
   font-weight: 500;
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

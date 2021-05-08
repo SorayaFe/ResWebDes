@@ -14,14 +14,29 @@
   grid-row: 1;
   color: white;
   align-self: end;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
-.logo {
+.logo,
+.color {
   height: 40px;
 }
 .headline {
   font-size: 60px;
   margin-bottom: 16px;
+}
+.name {
+  display: flex;
+}
+.color {
+  color: #e38e06;
+  font-size: 30px;
+  margin-left: 16px;
+  font-weight: 300;
+}
+.small {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 16px 0px;
 }
 @media (max-width: 1000px) {
   .grid {
@@ -39,7 +54,9 @@
     align-self: auto;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 32px;
   }
+
   .headline {
     font-size: 40px;
   }
@@ -57,5 +74,13 @@
   }
   .text {
     grid-column: 1 / span 4;
+  }
+  .color {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .small {
+    font-size: 15px;
+    margin: 10px 0px;
   }
 }

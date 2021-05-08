@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
 import { BenefitsComponent } from './benefits/benefits.component';
+import { ImageTextComponent } from './image-text/image-text.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BenefitsComponent],
+  declarations: [AppComponent, HeaderComponent, BenefitsComponent, ImageTextComponent],
   imports: [BrowserModule, BrowserAnimationsModule, MatIconModule],
   providers: [],
   bootstrap: [AppComponent],
