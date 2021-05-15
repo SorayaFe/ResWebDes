@@ -10,10 +10,35 @@ body {
   cursor: pointer;
   outline: none;
   padding: 20px 8px;
-  display: flex;
+  display: grid;
   justify-content: center;
   border: none;
-  min-width: 160px;
+  width: 180px;
+  height: 60px;
   font-size: 1rem;
   font-weight: 500;
+  overflow: hidden !important;
+  background-position: center;
+}
+.cta:hover .ripple {
+  width: 400px;
+  height: 200px;
+  margin: -20px auto 0 auto;
+  transition: all 0.7s;
+}
+.ripple {
+  width: 0px;
+  height: 0;
+  border-radius: 60px;
+  margin: 0px auto 0 auto;
+  height: calc(100% + 40px);
+  grid-column: 1;
+  background-color: #669b22;
+  grid-row: 1;
+  align-self: center;
+  transition: all 0s;
+}
+.btn-text {
+  grid-row: 1;
+  grid-column: 1;
 }

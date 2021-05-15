@@ -3,9 +3,9 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 128px 16px;
   grid-template-areas:
-    ". img1 img1 img1 img1 . text1 text1 text1 text1 text1 text1"
-    "text2 text2 text2 text2 text2 text2 . img2 img2 img2 img2 .";
-  padding: 32px 0px;
+    ". img1 img1 img1 . . text1 text1 text1 text1 text1 text1"
+    "text2 text2 text2 text2 text2 text2 . . img2 img2 img2 .";
+  padding: 128px 0px;
 }
 .img1 {
   grid-area: img1;
@@ -65,9 +65,9 @@
     gap: 64px 16px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-      ". img1 img1 img1 img1 img1 img1 ."
+      ". . . img1 img1 . . ."
       "text1 text1 text1 text1 text1 text1 text1 text1"
-      ". img2 img2 img2 img2 img2 img2 ."
+      ". . . img2 img2 . . ."
       "text2 text2 text2 text2 text2 text2 text2 text2";
   }
   .img1,

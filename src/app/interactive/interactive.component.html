@@ -1,0 +1,66 @@
+<div class="outer-grid">
+  <div class="grid">
+    <div class="cont">
+      <img class="img" width="100%" src="../../assets/side-view-png.png" />
+    </div>
+  </div>
+
+  <div *ngIf="isBrowser" class="icons">
+    <div class="icon-1 flex">
+      <div class="icon-container" #icon>
+        <mat-icon
+          (click)="
+            active === 1 ? (active = 0) : (active = 1); sub.unsubscribe()
+          "
+          class="icon"
+          >info</mat-icon
+        >
+      </div>
+      <div [class.display]="active === 1" class="text">
+        Über 20 verschiedene Töne
+      </div>
+    </div>
+    <div class="icon-2 flex">
+      <div class="icon-container" #icon>
+        <mat-icon
+          (click)="
+            active === 2 ? (active = 0) : (active = 2); sub.unsubscribe()
+          "
+          class="icon"
+          >info</mat-icon
+        >
+      </div>
+      <div [class.display]="active === 2" class="text">
+        nachfüllbare Wachskammer
+      </div>
+    </div>
+    <div class="icon-3 flex">
+      <div class="icon-container" #icon>
+        <mat-icon
+          (click)="
+            active === 3 ? (active = 0) : (active = 3); sub.unsubscribe()
+          "
+          class="icon"
+          >info</mat-icon
+        >
+      </div>
+      <div [class.display]="active === 3" class="text">
+        Selbstentzündender Docht
+      </div>
+    </div>
+    <div class="icon-4 flex">
+      <div class="icon-container" #icon>
+        <mat-icon
+          (click)="
+            active === 4 ? (active = 0) : (active = 4); sub.unsubscribe()
+          "
+          class="icon"
+          >info</mat-icon
+        >
+      </div>
+      <div [class.display]="active === 4" class="text">
+        Fortschrittliche, hocheffiziente Luftfilterung
+      </div>
+    </div>
+  </div>
+</div>
