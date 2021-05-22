@@ -33,7 +33,8 @@
   font-size: 40px;
 }
 .icon-container.big .icon {
-  font-size: 43px;
+  font-size: 45px;
+  color: #e38e06;
 }
 .icon-container.small .icon {
   font-size: 40px;
@@ -153,7 +154,7 @@
     font-size: 30px;
   }
   .icon-container.big .icon {
-    font-size: 33px;
+    font-size: 35px;
   }
   .icon-container.small .icon {
     font-size: 30px;

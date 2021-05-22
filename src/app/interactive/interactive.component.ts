@@ -35,25 +35,38 @@ export class InteractiveComponent implements OnInit, AfterViewInit, OnDestroy {
   ngAfterViewInit(): void {
     if (isPlatformBrowser(this.platformId)) {
       this.isBrowser = true;
-      const source = interval(500);
+      const source = interval(3000);
       this.sub = source.subscribe(() => {
-        if (this.icons) {
-          const icons = this.icons.toArray();
-
-          for (const icon of icons) {
-            if (icon.nativeElement) {
-              if (icon.nativeElement.classList.contains('small')) {
-                icon.nativeElement.classList.remove('small');
-                icon.nativeElement.classList.add('big');
-              } else {
-                icon.nativeElement.classList.remove('big');
-                icon.nativeElement.classList.add('small');
-              }
-            }
-          }
-        }
+        this.toggleClass();
+        setTimeout(() => {
+          this.toggleClass();
+          setTimeout(() => {
+            this.toggleClass();
+            setTimeout(() => {
+              this.toggleClass();
+            }, 200);
+          }, 200);
+        }, 200);
       });
       this.cd.detectChanges();
+    }
+  }
+
+  private toggleClass(): void {
+    if (this.icons) {
+      const icons = this.icons.toArray();
+
+      for (const icon of icons) {
+        if (icon.nativeElement) {
+          if (icon.nativeElement.classList.contains('big')) {
+            icon.nativeElement.classList.remove('big');
+            icon.nativeElement.classList.add('small');
+          } else {
+            icon.nativeElement.classList.remove('small');
+            icon.nativeElement.classList.add('big');
+          }
+        }
+      }
     }
   }
 

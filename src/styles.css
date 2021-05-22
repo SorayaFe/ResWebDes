@@ -13,7 +13,7 @@ body {
   display: grid;
   justify-content: center;
   border: none;
-  width: 180px;
+  width: 250px;
   height: 60px;
   font-size: 1rem;
   font-weight: 500;
@@ -21,7 +21,7 @@ body {
   background-position: center;
 }
 .cta:hover .ripple {
-  width: 400px;
+  width: 500px;
   height: 200px;
   margin: -20px auto 0 auto;
   transition: all 0.7s;
@@ -41,4 +41,9 @@ body {
 .btn-text {
   grid-row: 1;
   grid-column: 1;
+}
+@media (max-width: 360px) {
+  .cta {
+    width: 100%;
+  }
 }
