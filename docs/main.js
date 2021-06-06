@@ -166,7 +166,7 @@ ImageTextComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefin
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.img1 = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.img2 = _t.first);
-    } }, decls: 19, vars: 8, consts: [[1, "grid"], [1, "img1"], ["img1", ""], ["width", "100%", "src", "../../assets/filter_png.png", "alt", "filter", 1, "img"], [1, "text1"], [1, "headline"], [1, "text"], [1, "img2"], ["img2", ""], ["width", "100%", "src", "../../assets/back2_png.png", 1, "img"], [1, "text2"]], template: function ImageTextComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 19, vars: 8, consts: [[1, "grid"], [1, "img1"], ["img1", ""], ["width", "100%", "src", "assets/filter_png.png", "alt", "filter", 1, "img"], [1, "text1"], [1, "headline"], [1, "text"], [1, "img2"], ["img2", ""], ["width", "100%", "src", "assets/back2_png.png", 1, "img"], [1, "text2"]], template: function ImageTextComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1, 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 3);
@@ -227,7 +227,7 @@ class ReviewComponent {
     }
 }
 ReviewComponent.ɵfac = function ReviewComponent_Factory(t) { return new (t || ReviewComponent)(); };
-ReviewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReviewComponent, selectors: [["app-review"]], decls: 23, vars: 0, consts: [[1, "grid"], [1, "text", "fs"], ["src", "../../assets/stars_full.png", "alt", "stars"], [1, "rating"], [1, "inner"], [1, "fs"], [1, "big"], [1, "small"], ["src", "../../assets/stars_png.png", "alt", "stars"], [1, "fs", "quality"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function ReviewComponent_Template(rf, ctx) { if (rf & 1) {
+ReviewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReviewComponent, selectors: [["app-review"]], decls: 23, vars: 0, consts: [[1, "grid"], [1, "text", "fs"], ["src", "assets/stars_full.png", "alt", "stars"], [1, "rating"], [1, "inner"], [1, "fs"], [1, "big"], [1, "small"], ["src", "assets/stars_png.png", "alt", "stars"], [1, "fs", "quality"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function ReviewComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
@@ -473,7 +473,7 @@ InteractiveComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdef
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.icons = _t);
-    } }, decls: 5, vars: 1, consts: [[1, "outer-grid"], [1, "grid"], [1, "cont"], ["width", "100%", "src", "../../assets/side-view-png.png", "alt", "candle", 1, "img"], ["class", "icons", 4, "ngIf"], [1, "icons"], [1, "icon-1", "flex"], [1, "icon-container"], ["icon", ""], [1, "icon", 3, "click"], [1, "text"], [1, "icon-2", "flex"], [1, "icon-3", "flex"], [1, "icon-4", "flex"]], template: function InteractiveComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 5, vars: 1, consts: [[1, "outer-grid"], [1, "grid"], [1, "cont"], ["width", "100%", "src", "assets/side-view-png.png", "alt", "candle", 1, "img"], ["class", "icons", 4, "ngIf"], [1, "icons"], [1, "icon-1", "flex"], [1, "icon-container"], ["icon", ""], [1, "icon", 3, "click"], [1, "text"], [1, "icon-2", "flex"], [1, "icon-3", "flex"], [1, "icon-4", "flex"]], template: function InteractiveComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -552,7 +552,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 18, vars: 0, consts: [[1, "grid"], [1, "img"], ["height", "90%", "src", "assets/v3png.png", "alt", "candle", 1, "candle"], [1, "text"], [1, "name"], ["src", "../../assets/dysonlogo.jpg", 1, "logo"], [1, "color"], [1, "headline"], [1, "small"], [2, "font-weight", "600"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 18, vars: 0, consts: [[1, "grid"], [1, "img"], ["height", "90%", "src", "assets/v3png.png", "alt", "candle", 1, "candle"], [1, "text"], [1, "name"], ["src", "assets/dysonlogo.jpg", 1, "logo"], [1, "color"], [1, "headline"], [1, "small"], [2, "font-weight", "600"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
@@ -605,7 +605,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 17, vars: 0, consts: [[1, "grid"], [1, "cont"], [1, "icons"], ["src", "../../assets/instagram.png", "alt", "instagram", 1, "margin"], ["src", "../../assets/whatsapp.png", "alt", "whatsapp", 1, "margin"], ["src", "../../assets/twitter.png", "alt", "twitter", 1, "margin"], ["src", "../../assets/facebook.png", "alt", "facebook", 1, "margin"], ["src", "../../assets/youtube.png", "alt", "youtube"], [1, "links"], [1, "middle"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 17, vars: 0, consts: [[1, "grid"], [1, "cont"], [1, "icons"], ["src", "assets/instagram.png", "alt", "instagram", 1, "margin"], ["src", "assets/whatsapp.png", "alt", "whatsapp", 1, "margin"], ["src", "assets/twitter.png", "alt", "twitter", 1, "margin"], ["src", "assets/facebook.png", "alt", "facebook", 1, "margin"], ["src", "assets/youtube.png", "alt", "youtube"], [1, "links"], [1, "middle"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
