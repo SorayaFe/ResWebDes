@@ -552,7 +552,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 18, vars: 0, consts: [[1, "grid"], [1, "img"], ["height", "90%", "src", "../../assets/v3png.png", "alt", "candle", 1, "candle"], [1, "text"], [1, "name"], ["src", "../../assets/dysonlogo.jpg", 1, "logo"], [1, "color"], [1, "headline"], [1, "small"], [2, "font-weight", "600"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 18, vars: 0, consts: [[1, "grid"], [1, "img"], ["height", "90%", "src", "assets/v3png.png", "alt", "candle", 1, "candle"], [1, "text"], [1, "name"], ["src", "../../assets/dysonlogo.jpg", 1, "logo"], [1, "color"], [1, "headline"], [1, "small"], [2, "font-weight", "600"], [1, "cta"], [1, "ripple"], [1, "btn-text"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
