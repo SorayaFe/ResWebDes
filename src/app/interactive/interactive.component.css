@@ -29,7 +29,7 @@
 .icon {
   color: white;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 40px;
 }
 .icon-container.big .icon {
