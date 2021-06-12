@@ -6,18 +6,21 @@
 }
 .img {
   grid-row: 1;
-  grid-column: 6 / span 12;
+  grid-column: 1 / span 6;
   height: 100vh;
 }
 .candle {
   margin-top: 32px;
 }
 .text {
-  grid-column: 1 / span 5;
+  grid-column: 7 / span 12;
   grid-row: 1;
   color: white;
   align-self: end;
   margin-bottom: 64px;
+}
+.text div {
+  text-align: right;
 }
 .logo,
 .color {
@@ -27,8 +30,9 @@
   font-size: 60px;
   margin-bottom: 16px;
 }
-.name {
+.flex {
   display: flex;
+  justify-content: flex-end;
 }
 .color {
   color: #e38e06;
@@ -47,7 +51,7 @@
   }
   .img {
     grid-column: 1 / span 8;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
   }
@@ -59,7 +63,12 @@
     align-items: flex-end;
     margin-bottom: 32px;
   }
-
+  .text div {
+    text-align: left;
+  }
+  .flex {
+    justify-content: flex-start;
+  }
   .headline {
     font-size: 40px;
   }

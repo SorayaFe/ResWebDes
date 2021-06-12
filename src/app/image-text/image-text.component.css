@@ -3,8 +3,8 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 128px 16px;
   grid-template-areas:
-    ". img1 img1 img1 . . text1 text1 text1 text1 text1 text1"
-    "text2 text2 text2 text2 text2 text2 . . img2 img2 img2 .";
+    ". img1 img1 img1 . text1 text1 text1 text1 text1 text1 ."
+    ". text2 text2 text2 text2 text2 text2 . img2 img2 img2 .";
   padding: 128px 0px;
 }
 .img1 {
