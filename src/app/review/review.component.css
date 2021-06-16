@@ -3,7 +3,7 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 0px 16px;
   grid-template-areas: "text text text text text text . rating rating rating rating rating";
-  padding: 128px;
+  padding: 86px 0px;
 }
 .text {
   grid-area: text;
