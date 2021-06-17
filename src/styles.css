@@ -44,6 +44,6 @@ body {
 }
 @media (max-width: 360px) {
   .cta {
-    width: 100%;
+    width: 150px;
   }
 }
