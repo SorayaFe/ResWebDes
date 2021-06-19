@@ -9,16 +9,17 @@ body {
   background-color: #79b928;
   cursor: pointer;
   outline: none;
-  padding: 20px 8px;
+  padding: 15px 8px;
   display: grid;
   justify-content: center;
   border: none;
   width: 250px;
-  height: 60px;
-  font-size: 1rem;
-  font-weight: 500;
+  height: 58px;
   overflow: hidden !important;
   background-position: center;
+}
+button {
+  font: 500 20px futura-pt, sans-serif;
 }
 .cta:hover .ripple {
   width: 500px;
